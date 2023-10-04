@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>834</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton {
+	background-color: rgb(67, 73, 89);
+image: url(:/img/resource/user.png);
+border: 0px solid rgb(0, 0, 0);
+border-radius: 50px;
+padding: 20;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1920</width>
+      <height>1080</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame{
+	background-color: rgb(147, 147, 147);
+
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="box">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>521</width>
+       <height>341</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame{
+	border-radius: 15px;
+	background-color: rgba(0,0,0,200);
+}
+//(27, 29, 35)</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QLineEdit" name="linedit_email">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>100</y>
+        <width>240</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Semilight</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	border: 2px solid rgb(37,39,48);
+	border-radius: 20px;
+	color: #fff;
+	padding-left: 40px;
+	padding-right: 20px;
+	background-color: rgb(34, 36, 44);
+}
+
+QLineEdit::hover{
+	border: 2px solid rgb(48,50,62);
+}
+
+QLineEdit::focus{
+	border: 2px solid rgb(85, 170, 255);
+	background-color: rgb(43,45,56);
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>email@address.com</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_password">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>150</y>
+        <width>240</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Segoe UI Semilight</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit{
+	border: 2px solid rgb(37,39,48);
+	border-radius: 20px;
+	color: #fff;
+	padding-left: 40px;
+	padding-right: 20px;
+	background-color: rgb(34, 36, 44);
+}
+
+QLineEdit::hover{
+	border: 2px solid rgb(48,50,62);
+}
+
+QLineEdit::focus{
+	border: 2px solid rgb(85, 170, 255);
+	background-color: rgb(43,45,56);
+}</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="envelope">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>110</y>
+        <width>22</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	background: none;
+image: url(:/img/resource/envelope.png);
+border: 0px solid rgb(0, 0, 0);
+border-radius: 50px;
+
+
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="logo">
+      <property name="geometry">
+       <rect>
+        <x>155</x>
+        <y>160</y>
+        <width>22</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QToolButton {
+	background: none;
+image: url(:/img/resource/lock.png);
+border: 0px solid rgb(0, 0, 0);
+border-radius: 50px;
+
+
+}
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>220</y>
+        <width>101</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border: 2px solid rgb(43, 129, 63);
+	background-color: rgb(43, 129, 63);
+	border-radius: 15px;
+	color: rgb(255, 255, 255)
+}
+QPushButton::hover{
+border: 2px solid rgb(35, 106, 52);  
+align: center;
+}
+
+QPushButton::pressed{
+	background-color: rgb(35, 106, 51);
+	border: 2px solid rgb(35, 106, 51);
+}</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>192</y>
+        <width>131</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{
+	background:none;
+	color: rgb(225,225,225);
+}</string>
+      </property>
+      <property name="text">
+       <string>Don't have an account?</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>277</x>
+        <y>190</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+	border: 0px solid rgb(43, 129, 63);
+	background: none;
+	border-radius: 15px;
+	color: rgb(85, 170, 255);
+}
+QPushButton::pressed{
+	color: rgb(47, 118, 176)
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>sign up</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>toolButton</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>834</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

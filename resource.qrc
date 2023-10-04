@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>resource/envelope.png</file>
+        <file>resource/lock.png</file>
+        <file>resource/menu-burger.png</file>
+        <file>resource/user.png</file>
+        <file>resource/user-crown (1).png</file>
+        <file>resource/user-crown.png</file>
+    </qresource>
+</RCC>
